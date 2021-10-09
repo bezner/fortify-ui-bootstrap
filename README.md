@@ -1,4 +1,4 @@
-<p align="center"><img width="400" src="https://github.com/zacksmash/fortify-ui-preset/raw/master/fortify-preset-image.png"></p>
+<p align="center"><img width="400" src="https://github.com/bezner/fortify-ui-bootstrap/raw/master/fortify-preset-image.png"></p>
 
 # Using this template
 
