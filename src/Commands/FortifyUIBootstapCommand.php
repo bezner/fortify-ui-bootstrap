@@ -36,11 +36,17 @@ class FortifyUIBootstapCommand extends Command
 
             $packages['devDependencies'] = array_key_exists('devDependencies', $packages) ? $packages['devDependencies'] : [];
             $packages['devDependencies'] = $packages['devDependencies'] + [
-                    'bootstrap'   => '^5.1.0',
-                    'jquery'      => '^3.6',
-                    'popper.js'   => '^1.16',
-                    'sass'        => '^1.42.0',
-                    'sass-loader' => '^12.1.0',
+                    'bootstrap'          => '^5.1.0',
+                    'jquery'             => '^3.6',
+                    '@popperjs/core'     => '^2.10.2',
+                    'sass'               => '^1.42.0',
+                    'sass-loader'        => '^12.1.0',
+                    'laravel-mix'        => '^6.0.34',
+                    'webpack'            => '^5.58.2',
+                    'axios'              => '^0.21',
+                    'lodash'             => '^4.17.19',
+                    'postcss'            => '^8.1.14',
+                    'resolve-url-loader' => '^4.0.0',
                 ];
 
             ksort($packages['devDependencies']);
