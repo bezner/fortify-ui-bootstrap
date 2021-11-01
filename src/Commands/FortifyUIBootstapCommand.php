@@ -60,7 +60,7 @@ class FortifyUIBootstapCommand extends Command
 
     protected function updateWebPackConfiguration()
     {
-        copy(__DIR__ . '/stubs/webpack.mix.js', base_path('webpack.mix.js'));
+        copy(__DIR__ . '/../../stubs/webpack.mix.js', base_path('webpack.mix.js'));
     }
 
     protected function removeNodeModules()

@@ -1,29 +1,8 @@
 <p align="center"><img width="400" src="https://github.com/bezner/fortify-ui-bootstrap/raw/master/fortify-preset-image.png"></p>
 
-# Using this template
-
-Here are the steps to customize this template with your preset
-
-- Rename the files in the `src` directory. Example `FortifyUIBootstrapCommand.php`
-    - Make sure you update any `use` statements and namespaces
-- Add your preset stubs to the `stubs` directory
-- Add your preset image and preset screenshots
-- Update the `composer.json`
-    - Replace all instances of `YourNamespace\\FortifyUIPreset` with your details. For example: `SomeDude\\FortifyUIBootstrap`
-- Search & Replace all of the following terms
-    - YourNamespace
-    - yournamespace
-    - YourPreset
-    - yourpreset
-    - SomeFramework
-    - Your Name
-    - yourusername
-    - you@yourdomain.com
-
-
 # Introduction
 
-**YourPreset** is a Laravel Fortify UI preset, built with SomeFramework.
+**FortifyUI Bootstrap** is a Laravel Fortify UI preset, built with Bootstrap 5.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -36,25 +15,34 @@ This package requires Laravel Fortify and FortifyUI. Installing [*FortifyUI*](ht
 <a name="installation"></a>
 ## Installation
 
-To get started, you'll need to install **YourPreset** using Composer.
+To get started, you'll need to install **FortifyUI Bootstrap** using Composer.
 
 ```bash
-composer require yournamespace/fortify-yourpreset
+composer require bezner/fortify-ui-bootstrap
 ```
 
 Next, you'll need to run the install command:
 
 ```bash
-php artisan fortify:yourpreset
+php artisan fortify:bootstrap
 ```
 
-This command will publish **YourPreset's** views and resources to your project.
+This command will publish **FortifyUI Bootstrap's** views and resources to your project.
 
-- All `auth` views
-- Other files...
+The lsat step is to install node dependencies and compile the assets. You will achieve that by running:
 
-<p align="center"><img  src="https://github.com/zacksmash/fortify-ui-preset/raw/master/fortify-preset-screenshot.png"></p>
+```bash
+npm install && npm run dev
+```   
+
+or
+
+```bash
+yarn install && yarn run dev
+```
+
+depending on the package manager of your choice. Happy development! 
 
 ## License
 
-**FortifyUIPreset** is open-sourced software licensed under the [MIT license](LICENSE.md).
+**FortifyUI Bootstrap** is open-sourced software licensed under the [MIT license](LICENSE.md).
